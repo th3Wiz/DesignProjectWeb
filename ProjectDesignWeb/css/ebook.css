@@ -1,0 +1,72 @@
+.book{
+	margin: 100px 0;
+}
+.book-container{
+	background-color: #f7f6f7;
+	padding: 30px 15px;
+	border-top: 5px solid #b81c23;
+}
+
+.panel {
+	margin-bottom: 20px;
+}
+.panel p{
+	display: inline-block;
+	background-color: #c0c1c4;
+	margin: 20px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+.panel p:hover {
+	cursor: pointer;
+	background-color: #b81c23;
+	color: white;
+	transition: linear 0.5s;
+}
+.panel p:first-child{
+	margin-left: auto;
+}
+.panel p:last-child{
+	margin-right: auto;
+}
+
+.search-book{
+	background-color: #f7f6f7;
+	padding: 30px 15px;
+	border-top: 5px solid #b81c23;
+	margin: 100px 0 20px;
+}
+.search-book input{
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding: 0 10px;
+}
+.search-book2{
+	background-color: #f7f6f7;
+	padding: 30px 15px;
+	border-top: 5px solid #b81c23;
+	margin: 20px 0;
+}
+
+.hre-book{
+	margin: 40px 0;
+}
+.hre-book p{
+	margin: 5px 0;
+}
+.fa-star{
+	color: #e2de58;
+}
+.ny {
+	color: black;
+}
+
+.nobook{
+	padding: 50px 0;
+}
+.nobook p{
+	margin-top: 30px;
+}

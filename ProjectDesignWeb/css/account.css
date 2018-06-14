@@ -1,0 +1,85 @@
+.account{
+	padding: 30px 0;
+}
+.account a{
+	color: #F66249;
+	text-decoration: none;
+}
+.account h1{
+	margin-bottom: 50px;
+}
+.account h3 {
+	margin-bottom: 30px;
+}
+.account span {
+	color: #F66249;
+}
+.account input[type="text"] {
+	width: 350px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.account input[type="password"] {
+	width: 350px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.account input[type="submit"] {
+	margin: 30px 0 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #F66249;
+	border: #F66249;
+	padding: 5px;
+	width: 120px;
+	border-radius: 5px;
+}
+.account input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #f43818;
+}
+
+.reset {
+	padding: 30px 0;
+}
+
+.reset h3 {
+	margin-bottom: 30px;
+}
+.reset span {
+	color: #F66249;
+}
+.reset input[type="text"] {
+	width: 350px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.reset input[type="submit"] {
+	margin: 30px 0 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #F66249;
+	border: #F66249;
+	padding: 5px;
+	width: 160px;
+	border-radius: 5px;
+}
+.reset input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #f43818;
+}
+.reset i {
+	color: #b81c23;
+	margin-right: 10px;
+}
+.reset-warning {
+	border-top: 2px solid #b81c23;
+	padding: 10px;
+	background-color: #f7f6f7;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	display: none;
+}
